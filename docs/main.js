@@ -3,6 +3,6 @@ var pickLevel = 1;
 
 setInterval(function() {
   depth = depth + pickLevel;
-  document.getElementById("depth").innerHtml = depth;
+  document.getElementById("depth").innerHtml = depth.toInt;
   console.log("epic");
 }, 1000);
