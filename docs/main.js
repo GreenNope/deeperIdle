@@ -5,4 +5,4 @@ while (true) do {
   depth = depth + pickLevel;
   document.getElementById("depth").innerHtml = depth;
   wait(1);
-}
+};
